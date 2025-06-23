@@ -28,13 +28,6 @@ export default function HomePage() {
             <span className="text-gray-800">QUIZ</span>
             <span className="text-pink-600">Mania</span>
           </div>
-          {/* User Avatar Placeholder */}
-          <div className="hidden sm:flex items-center space-x-2">
-            <div className="h-10 w-10 rounded-full bg-gray-600 flex items-center justify-center text-white font-bold">
-              R
-            </div>
-            <span className="text-gray-700 hidden md:block">Richard Joe Freds</span>
-          </div>
         </div>
       </div>
 
