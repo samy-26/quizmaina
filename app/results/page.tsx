@@ -78,11 +78,11 @@ export default function ResultsPage() {
           <div className="mb-6 flex justify-center sm:mb-8">
             {isSuccess ? (
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 sm:h-20 sm:w-20">
-                <Check className="h-8 w-8 text-green-600 sm:h-10 sm:w-10" />
+                <img src="/images/success-result.png" alt="Success" className="h-16 w-16 sm:h-20 sm:w-20" />
               </div>
             ) : (
               <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-pink-400 sm:h-20 sm:w-20">
-                <div className="text-2xl text-pink-400 sm:text-3xl">😞</div>
+                <img src="/images/failure.png" alt="Failure" className="h-16 w-16 sm:h-20 sm:w-20" />
               </div>
             )}
           </div>
